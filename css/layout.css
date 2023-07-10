@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;600&display=swap");
+@font-face {
+  font-family: "LeksaSansProLight";
+  src: url("../fonts/LeksaSansProLight/LeksaSansProLight.eot");
+  src: url("../fonts/LeksaSansProLight/LeksaSansProLight.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/LeksaSansProLight/LeksaSansProLight.woff") format("woff"),
+    url("../fonts/LeksaSansProLight/LeksaSansProLight.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 300;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  display: flex;
+  font-family: LeksaSansPro;
+  font-weight: 400;
+  font-size: 16px;
+  background-color: #f1eae0;
+}
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  max-width: 1180px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+.wrapper {
+  width: 100%;
+  min-height: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+main {
+  height: 100%;
+  min-height: 100%;
+  overflow: auto;
+  padding-top: 178px;
+}
+@media (max-width: 1180px) {
+  main {
+    padding-top: 43px;
+  }
+}
